@@ -23,17 +23,22 @@
     left: 0;
     right: 0;
     bottom: 0;
+    transition: opacity 0.3s;
+}
 
+.cover__background:hover::before {
+    opacity: 0.8;
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .cover__background {
         min-height: 640px;
    }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__background {
        min-height: 480px;
    }

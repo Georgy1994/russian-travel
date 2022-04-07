@@ -7,20 +7,15 @@
     flex-direction: column;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    {
-        
-   }
-}
 
-@media (min-width: 425px) and (max-width: 768px) {
-    {
-       
+@media screen and (max-width: 768px) {
+    .places {
+       margin: 88px auto 0;
    }
 }
 
 @media screen and (max-width: 425px) {
-    {
-       
+    .places {
+       margin: 64px auto 0;
    }
 }

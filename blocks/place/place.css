@@ -8,7 +8,6 @@
         "image text";
     gap: 48px 40px;
     max-width: 984px;
-    gap: 48px 40px;
     margin: 80px auto 0;
     align-items: start;
 }
@@ -17,13 +16,14 @@
     margin: 0 auto;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 440px auto;
+        gap: 48px 32px;
    }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px;
         grid-template-rows: 92px repeat(3, auto);
@@ -32,6 +32,7 @@
         "wedsite"
         "image"
         "text";
+        gap: 48px 28px;
    }
 }
 
