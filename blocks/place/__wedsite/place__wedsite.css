@@ -1,0 +1,5 @@
+.place__wedsite {
+    display: grid;
+    align-self: end;
+    grid-area: wedsite;
+}
