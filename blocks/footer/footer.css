@@ -104,9 +104,11 @@
 @media screen and (max-width: 768px) {
     .footer__copyright {
         margin: 48px 0 0 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
         margin: 48px 0 0 0;
     }
+}
