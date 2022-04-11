@@ -22,7 +22,15 @@
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 946px) {
+    .place {
+        grid-template-columns: 340px auto;
+        grid-template-rows: 92px auto;
+        gap: 48px 28px;
+   }
+}
+
+@media screen and (max-width: 700px) {
     .place {
         grid-template-columns: 340px;
         grid-template-rows: 92px repeat(3, auto);
@@ -31,8 +39,7 @@
         "wedsite"
         "image"
         "text";
-        gap: 48px 28px;
-   }
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -45,5 +52,6 @@
         "image"
         "text";
         gap: 32px;
+        margin: 50px auto 0;
    }
 }

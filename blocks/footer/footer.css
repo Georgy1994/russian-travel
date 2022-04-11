@@ -6,7 +6,19 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin: 92px 48px 24px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .footer {
+        margin: 64px 24px 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
         margin: 64px auto 16px 24px;

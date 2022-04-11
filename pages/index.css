@@ -1,3 +1,7 @@
+/* normalize start*/
+@import url(..//vendor/normalize.css);
+/* normalize end*/
+
 /* fonts start*/
 @import url(..//fonts/Inter_Web/inter.css);
 /* fonts end*/
@@ -19,6 +23,7 @@
 @import url(..//blocks/header/__lang/header__lang.css);
 @import url(..//blocks/header/__link/header__link.css);
 @import url(..//blocks/header/__logo/header__logo.css);
+@import url(..//blocks/header/__link/_active/header__link_active.css);
 /* header end*/
 
 /* lead start*/

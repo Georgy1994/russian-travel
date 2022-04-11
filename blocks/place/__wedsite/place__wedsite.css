@@ -3,3 +3,9 @@
     align-self: end;
     grid-area: wedsite;
 }
+
+@media screen and (max-width: 425px) {
+    .place__wedsite {
+        margin-left: 16px;
+   }
+}

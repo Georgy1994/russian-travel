@@ -3,15 +3,9 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    /*
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    gap: 18px;
-    */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .footer__menu {
         flex-direction: column;
     }
