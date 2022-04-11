@@ -3,7 +3,7 @@
 /* normalize end*/
 
 /* fonts start*/
-@import url(..//fonts/Inter_Web/inter.css);
+@import url(..//vendor/fonts.css);
 /* fonts end*/
 
 @import url(..//blocks/body/body.css);

@@ -10,6 +10,13 @@
     margin: 0;
 }
 
+@media screen and (max-width: 425px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+   }
+}
+
 /*
 .header__link::after {
     display: block;
@@ -26,12 +33,5 @@
 
 .header__link:hover {
     color: white;
-}
-
-@media screen and (max-width: 425px) {
-    .header__link {
-        font-size: 18px;
-        line-height: 20px;
-   }
 }
 */
